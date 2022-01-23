@@ -1,7 +1,8 @@
 import React from "react";
 import TypewriterComponent from "typewriter-effect";
-import Background3 from "./Background3";
+import Computer from "./Computer";
 import { Box } from "@mui/system";
+import Background from "./Background";
 function Home() {
   return (
     <>
@@ -14,7 +15,8 @@ function Home() {
           flexDirection: { xs: "column", md: "row", lg: "row" },
         }}
       >
-        <Background3 />
+        {window.screen.width > 600 ? <Background /> : <></>}
+        <Computer />
         <Box
           sx={{
             // border: "1px solid red",

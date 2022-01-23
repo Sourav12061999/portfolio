@@ -1,6 +1,6 @@
 import React from "react";
 import InlineSVG from "svg-inline-react";
-function Background3() {
+function Computer() {
   const svg1 = `<svg viewBox="-50 0 500 458.4" width="250" height="350">
   
       <defs>
@@ -518,4 +518,4 @@ function Background3() {
   );
 }
 
-export default Background3;
+export default Computer;
