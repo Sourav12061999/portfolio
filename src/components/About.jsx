@@ -68,47 +68,59 @@ function About() {
             version of myself.
           </Typography>
           <div style={{ marginTop: "5%" }}>
-            <Button
-              variant="contained"
-              startIcon={<AiFillGithub />}
-              sx={{
-                background: `linear-gradient(
+            <a target={"_blank"} href="https://github.com/Sourav12061999">
+              <Button
+                variant="contained"
+                startIcon={<AiFillGithub />}
+                sx={{
+                  background: `linear-gradient(
                 60deg,
                 rgba(84, 58, 183, 1) 0%,
                 rgba(0, 172, 193, 1) 100%
               )`,
-              }}
+                }}
+              >
+                Github
+              </Button>
+            </a>
+            <a
+              target={"_blank"}
+              href="https://www.linkedin.com/in/sourav-das-072256218/"
             >
-              Github
-            </Button>
-            <Button
-              variant="contained"
-              startIcon={<FaLinkedin />}
-              sx={{
-                marginX: 2,
-                background: `linear-gradient(
+              <Button
+                variant="contained"
+                startIcon={<FaLinkedin />}
+                sx={{
+                  marginX: 2,
+                  background: `linear-gradient(
                 60deg,
                 rgba(84, 58, 183, 1) 0%,
                 rgba(0, 172, 193, 1) 100%
               )`,
-              }}
+                }}
+              >
+                Linkdin
+              </Button>
+            </a>
+            <a
+              target={"_blank"}
+              href="https://drive.google.com/file/d/1EZn9ejpVo-lxYw8MooxNgXuA4DcD4CjA/view?usp=sharing"
             >
-              Linkdin
-            </Button>
-            <Button
-              variant="contained"
-              startIcon={<AiFillFileText />}
-              sx={{
-                background: `linear-gradient(
+              <Button
+                variant="contained"
+                startIcon={<AiFillFileText />}
+                sx={{
+                  background: `linear-gradient(
                 60deg,
                 rgba(84, 58, 183, 1) 0%,
                 rgba(0, 172, 193, 1) 100%
               )`,
-                mt: { xs: 2, md: 0, lg: 0 },
-              }}
-            >
-              Resume
-            </Button>
+                  mt: { xs: 2, md: 0, lg: 0 },
+                }}
+              >
+                Resume
+              </Button>
+            </a>
           </div>
         </div>
       </Box>
